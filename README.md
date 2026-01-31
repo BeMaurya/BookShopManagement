@@ -2,92 +2,82 @@
 
 A simple and efficient book shop management system that supports book inventory, customer records, billing, and reporting. Built for learning and practical database application development.
 ---
-✨ Features
+##✨ Features
+- 📋 Manage book inventory (Add, Delete, Update, Search)
+- 👤 Customer information management
+- 💰 Billing and invoice generation
+- 📊 View reports of sales
+- 🗃️ Simple and intuitive UI/CLI
+- 🛠️ Connected to database for persistent storage
 
-📋 Manage book inventory (Add, Delete, Update, Search)
-
-👤 Customer information management
-
-💰 Billing and invoice generation
-
-📊 View reports of sales
-
-🗃️ Simple and intuitive UI/CLI
-
-🛠️ Connected to database for persistent storage
 ---
 
-🧰 Tech Stack
-
-🖥️ Front-end / UI: (e.g., JavaFX / Swing / HTML/CSS/JS — adjust)
-
-🧠 Backend: (e.g., Java / Python / Node.js)
-
-🗄️ Database: (e.g., MySQL / PostgreSQL / SQLite)
-
-⚡ Tools: (e.g., JDBC / ORM / Build tools)
+## 🧰 Tech Stack
+- 🖥️ Front-end / UI: (Swing)
+- 🧠 Backend: (Java)
+- 🗄️ Database: (Oracle SQL)
+- ⚡ Tools: (JDBC)
 
 📁 Project Structure
-
+```text
 BookShopManagement/
-├── src/                 # Source code
-├── db/                  # Database scripts
-├── assets/              # UI / images
-├── docs/                # Documentation / specs
-├── screenshots/         # UI screens
+├── src/                  # Java source code
+├── lib/                  # External libraries (JDBC drivers)
+├── bin/                  # Compiled classes
+├── .settings/            # Eclipse settings
+├── .classpath
+├── .project
+│
+├── database/
+│   ├── sql/
+│   │   ├── userSQL.sql        # DB user creation
+│   │   └── tableSQL.sql       # Table creation
+│   │
+│   └── scripts/
+│       ├── createUser.bat     # Run userSQL.sql
+│       └── createTable.bat    # Run tableSQL.sql
+│
+├── docs/                 # (Optional) diagrams, report
+├── screenshots/          # (Optional) outputs / UI
 └── README.md
+```
 
-⚙️ How to Install
-🧱 Prerequisites
+## ⚙️ How to Install
+### 🧱 Prerequisites
+- 💻 JDK
+- 🗄️ Database installed (Oracle)
 
-💻 JDK (if Java)
-
-🗄️ Database installed (MySQL / PostgreSQL / SQLite)
-
-📦 Dependencies installed (Maven / npm / pip)
-
-📥 Setup Steps
+###📥 Setup Steps
+```bash
 git clone https://github.com/BeMaurya/BookShopManagement.git
 cd BookShopManagement
-Configure your database
+```
 
-Create schema
+### Configure your database
 
-Update connection config
+- Create schema
 
-Build/run the project
+- Update connection config
+
+- Build/run the project
 For Java:
-mvn clean install
 java -jar BookShopManagement.jar
 
-🏃 Usage
+## 🏃 Usage
+- Add new book
+- View all books
+- Search book by ID/Name
+- Create customer bill
 
-Add new book
-
-View all books
-
-Search book by ID/Name
-
-Create customer bill
-
-(Include screenshots below if available)
-
-🧠 Why This Project?
-
+## 🧠 Why This Project?
 Built to demonstrate:
+- Database CRUD operations
+- Object mapping and persistence
+- User-friendly interface
+- Practical application of backend + database
+- Great for interviews, portfolio, and real-world practice.
 
-Database CRUD operations
-
-Object mapping and persistence
-
-User-friendly interface
-
-Practical application of backend + database
-
-Great for interviews, portfolio, and real-world practice.
-
-❤️ Contributions
-
+## ❤️ Contributions
 Contributions are welcome!
 Fork the repo → Create a branch → Add feature → Submit PR
 
