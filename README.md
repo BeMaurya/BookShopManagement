@@ -1,23 +1,7 @@
-# 📚 Book Shop Management System
+# 📚 Book Shop Management System  
 A simple and efficient book shop management system that supports book inventory, customer records, billing, and reporting. Built for learning and practical database application development.
----
-## ✨ Features
-- 📋 Manage book inventory (Add, Delete, Update, Search)
-- 👤 Customer information management
-- 💰 Billing and invoice generation
-- 📊 View reports of sales
-- 🗃️ Simple and intuitive UI/CLI
-- 🛠️ Connected to database for persistent storage
----
 
-## 🧰 Tech Stack
-- 🖥️ **Front-end / UI:** Java Swing for desktop-based user interface  
-- ☕ **Backend:** Core Java application logic  
-- 🗄️ **Database:** Oracle SQL for data storage  
-- ⚡ **Tools & Connectivity:** JDBC for Java–Database interaction  
-
-
-📁 Project Structure
+## 📁 Project Structure
 ```text
 BookShopManagement/
 ├── src/                  # Java source code
@@ -41,6 +25,55 @@ BookShopManagement/
 └── README.md
 ```
 
+## ✨ Features
+- 📋 Manage book inventory (Add, Delete, Update, Search)
+- 👤 Customer information management
+- 💰 Billing and invoice generation
+- 📊 View reports of sales
+- 🗃️ Simple and intuitive UI/CLI
+- 🛠️ Connected to database for persistent storage
+ 
+## 🧰 Tech Stack
+- 🖥️ **Front-end / UI:** Java Swing for desktop-based user interface  
+- ☕ **Backend:** Core Java application logic  
+- 🗄️ **Database:** Oracle SQL for data storage  
+- ⚡ **Tools & Connectivity:** JDBC for Java–Database interaction  
+
+## 🧠 Architecture Diagram
+```text
+         +-------------------------------+
+         |        Java Application       |
+         |  (Swing / CLI / UI Module)    |
+         |                               |
+         |  - User Interface             |
+         |  - Business Logic             |
+         |  - JDBC Database Access       |
+         +---------------+---------------+
+                         |
+                        JDBC
+                         |
+                         v
+         +-------------------------------+
+         |     Relational Database       |
+         | (Oracle / MySQL / SQL Server) |
+         |                               |
+         |  - Books Table                |
+         |  - Users Table                |
+         |  - Sales / Transactions       |
+         +-------------------------------+
+```
+### 🧩 Architecture Overview
+#### 🧱 Component Breakdown  
+- 🖥️ Java Application (Client)
+  Provides the user interface and handles core business logic such as managing books, users, and transactions.
+- 🔗 JDBC Layer
+  Acts as the communication bridge between the Java application and the database, executing SQL queries and returning results
+- 🗄️ Relational Database
+  Stores all persistent data, including books, users, and transactional records.
+  Database schema and users are initialized using SQL scripts and batch files.s
+- ⚙️ Database Setup Scripts
+  `.sql` and `.bat` files automate database creation, table setup, and user configuration.
+
 ## ⚙️ How to Install
 ### 🧱 Prerequisites
 - 💻 JDK
@@ -54,10 +87,10 @@ cd BookShopManagement
 ### 🗄️ Configure the Database
 1. 🏗️ Create the required database schema using the provided SQL scripts  
 2. 🔧 Update database connection details (URL, username, password)  
-3. ▶️ Build and run the Java application  
-```bash
-java -jar BookShopManagement.jar
-```
+3. ▶️ Build and run the Java application
+   ```bash
+   java -jar BookShopManagement.jar
+   ```
 
 ## 🏃 Usage
 - Add new book
@@ -75,7 +108,7 @@ Built to demonstrate:
 
 ## ❤️ Contributions
 Contributions are welcome!
-Fork the repo → Create a branch → Add feature → Submit PR
+> Fork the repo → Create a branch → Add feature → Submit PR
 
 </br></br>
 <div align="center">
