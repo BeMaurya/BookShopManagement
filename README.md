@@ -46,18 +46,15 @@ BookShopManagement/
 - 💻 JDK
 - 🗄️ Database installed (Oracle)
 
-###📥 Setup Steps
+### 📥 Setup Steps
 ```bash
 git clone https://github.com/BeMaurya/BookShopManagement.git
 cd BookShopManagement
 ```
-```md
 ### 🗄️ Configure the Database
-
 1. 🏗️ Create the required database schema using the provided SQL scripts  
 2. 🔧 Update database connection details (URL, username, password)  
 3. ▶️ Build and run the Java application  
-```
 ```bash
 java -jar BookShopManagement.jar
 ```
