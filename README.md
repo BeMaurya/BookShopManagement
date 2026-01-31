@@ -99,13 +99,6 @@ cd BookShopManagement
 - Search book by ID/Name
 - Create customer bill
 
-## 🧠 Why This Project?
-Built to demonstrate:
-- Database CRUD operations
-- Object mapping and persistence
-- User-friendly interface
-- Practical application of backend + database
-- Great for interviews, portfolio, and real-world practice.
 
 ## ❤️ Contributions
 Contributions are welcome!
