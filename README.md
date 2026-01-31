@@ -66,16 +66,12 @@ BookShopManagement/
 #### 🧱 Component Breakdown  
 - 💻 **Java Application (Client)**  
   <br>Provides the user interface and handles core business logic such as managing books, users, and transactions.
-
 - 🔗 **JDBC Layer**  
   <br>Acts as the communication bridge between the Java application and the database, executing SQL queries and returning results.
-
 - 🗄️ **Relational Database**  
   <br>Stores all persistent data, including books, users, and transactional records. Database schema and users are initialized using SQL scripts and batch files.
-
 - ⚙️ **Database Setup Scripts**  
   <br>`.sql` and `.bat` files automate database creation, table setup, and user configuration.
-
 
 ## ⚙️ How to Install
 ### 🧱 Prerequisites
@@ -87,10 +83,12 @@ BookShopManagement/
 git clone https://github.com/BeMaurya/BookShopManagement.git
 cd BookShopManagement
 ```
+
 ### 🗄️ Configure the Database
 1. 🏗️ Create the required database schema using the provided SQL scripts  
 2. 🔧 Update database connection details (URL, username, password)  
 3. ▶️ Build and run the Java application
+   
    ```bash
    java -jar BookShopManagement.jar
    ```
