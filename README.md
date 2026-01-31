@@ -1,22 +1,21 @@
-#📚 Book Shop Management System
-
+# 📚 Book Shop Management System
 A simple and efficient book shop management system that supports book inventory, customer records, billing, and reporting. Built for learning and practical database application development.
 ---
-##✨ Features
+## ✨ Features
 - 📋 Manage book inventory (Add, Delete, Update, Search)
 - 👤 Customer information management
 - 💰 Billing and invoice generation
 - 📊 View reports of sales
 - 🗃️ Simple and intuitive UI/CLI
 - 🛠️ Connected to database for persistent storage
-
 ---
 
 ## 🧰 Tech Stack
-- 🖥️ Front-end / UI: (Swing)
-- 🧠 Backend: (Java)
-- 🗄️ Database: (Oracle SQL)
-- ⚡ Tools: (JDBC)
+- 🖥️ **Front-end / UI:** Java Swing for desktop-based user interface  
+- ☕ **Backend:** Core Java application logic  
+- 🗄️ **Database:** Oracle SQL for data storage  
+- ⚡ **Tools & Connectivity:** JDBC for Java–Database interaction  
+
 
 📁 Project Structure
 ```text
@@ -52,16 +51,16 @@ BookShopManagement/
 git clone https://github.com/BeMaurya/BookShopManagement.git
 cd BookShopManagement
 ```
+```md
+### 🗄️ Configure the Database
 
-### Configure your database
-
-- Create schema
-
-- Update connection config
-
-- Build/run the project
-For Java:
+1. 🏗️ Create the required database schema using the provided SQL scripts  
+2. 🔧 Update database connection details (URL, username, password)  
+3. ▶️ Build and run the Java application  
+```
+```bash
 java -jar BookShopManagement.jar
+```
 
 ## 🏃 Usage
 - Add new book
@@ -81,6 +80,7 @@ Built to demonstrate:
 Contributions are welcome!
 Fork the repo → Create a branch → Add feature → Submit PR
 
+</br></br>
 <div align="center">
 <p>📘 This project is created strictly for educational and learning purposes.</p>
 <p>⭐ If you find this project helpful, feel free to star the repository!</p>
